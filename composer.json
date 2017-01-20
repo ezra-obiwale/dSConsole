@@ -1,0 +1,26 @@
+{
+    "name": "d-scribe/console",
+    "description": "dScribe Console Component",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["dscribe", "console", "library"],
+    "authors": [
+        {
+            "name": "Ezra Obiwale",
+            "email": "contact@ezraobiwale.com",
+            "homepage": "http://ezraobiwale.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "d-scribe/stdlib": "master"
+    },
+    "autoload": {
+        "psr-4": {
+            "dScribe\\Console\\": "src/"
+        }
+    },
+    "suggest": {
+        "d-scribe/db-scribe": "Library for database manipulation abstraction"
+    }
+}
